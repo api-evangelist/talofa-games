@@ -1,7 +1,27 @@
 aid: talofa-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talofa-games.png
 name: Talofa Games
-description: Talofa Games is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Talofa Games is a mobile game developer and publisher backed by Andreessen
+  Horowitz (a16z). The studio builds social fitness games that turn real-world
+  physical activity into cooperative multiplayer play. Its flagship title, Run
+  Legends, is a free-to-play running RPG available on iOS and Android in which
+  players' real-world runs and walks power team battles against monsters, and
+  its newer title Monster Walk is in closed beta. Talofa Games is a
+  consumer mobile-gaming company and does not publish a public developer API,
+  SDK, or developer portal; this API Evangelist profile captures its company
+  identity and public web presence rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/talofa-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile Games
+- Gaming
+- Fitness
+- Health & Fitness
+- Consumer
+- Entertainment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/talofa-games-domain-security.yml
+- type: Website
+  url: https://talofagames.com
+- type: PrivacyPolicy
+  url: https://talofagames.com/privacy
+- type: TermsOfService
+  url: https://talofagames.com/terms
+- type: Support
+  url: mailto:help@talofagames.com
+- type: Community
+  url: https://discord.gg/6zePBvKd2X
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
